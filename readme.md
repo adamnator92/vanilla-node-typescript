@@ -1,41 +1,42 @@
-The vanilla node + express + nodemon + typescript + tslint + prettier setup
+# The vanilla node + express + nodemon + typescript + tslint + prettier setup
 
-Step 1 Boiler plate setup
+### Step 1 Boiler plate setup
 
 ```
 yarn add -D typescript
 yarn add -D tslint
-yarn add prettier --dev --exact
+yarn add -D prettier --exact
 yarn add -D nodemon
-yarn add @types/express -D
+yarn add -D @types/express
 yarn add express
 ```
 
-Step 2 Generate tsconfig.json
+### Step 2 Generate tsconfig.json
 
 ```
 yarn tsc --init
 ```
 
-Step 3 Generate tsconfig.json
+### Step 3 Generate tsconfig.json
 
 ```
 yarn tslint --init
 ```
 
-Step 4 Generate prettier
+### Step 4 Generate prettier
 
 ```
 touch .prettierrc and copy options to that file
 ```
 
-Step 5 Configure nodemon
+### Step 5 Configure nodemon
 
 ```
-Create nodemon.json, add configuration rules
+touch nodemon.json, add configuration rules
 ```
 
-Optional - setup tsconfig-paths
+### Optional - setup tsconfig-paths
+
 enable use to load modules according to the `paths` section in tsconfig.json.
 like so
 
