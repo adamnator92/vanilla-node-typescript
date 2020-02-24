@@ -44,13 +44,13 @@ in tsconfig.json
 
 ```
    "paths": {
-      "@shared/*": ["src/shared/*"],
+      "shared/*": ["src/shared/*"],
     },
 ```
 
 in code
 
-`import { HelperFunction } from '@shared'`
+`import { HelperFunction } from 'shared'`
 
 Setup
 
@@ -60,4 +60,4 @@ yarn add tsconfig-paths -D
 
 in package.json `script`
 
-`start: ts-node -r tsconfig-paths/register main.ts`
+`start: ts-node -r tsconfig-paths/register index.ts`
