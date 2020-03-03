@@ -35,7 +35,7 @@ touch .prettierrc and copy options to that file
 touch nodemon.json, add configuration rules
 ```
 
-### Optional - setup tsconfig-paths
+### Optional - Setup tsconfig-paths
 
 enable use to load modules according to the `paths` section in tsconfig.json.
 like so
