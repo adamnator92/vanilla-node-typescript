@@ -44,13 +44,13 @@ in tsconfig.json
 
 ```
    "paths": {
-      "shared/*": ["src/shared/*"],
+      "@shared/*": ["src/shared/*"],
     },
 ```
 
 in code
 
-`import { HelperFunction } from 'shared'`
+`import { HelperFunction } from '@shared'`
 
 Setup
 
