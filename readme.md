@@ -9,6 +9,7 @@ yarn add -D prettier --exact
 yarn add -D nodemon
 yarn add -D @types/express
 yarn add express
+yarn add ts-node
 ```
 
 ### Step 2 Generate tsconfig.json
